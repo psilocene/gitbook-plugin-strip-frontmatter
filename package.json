@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-strip-frontmatter",
     "description": "Strip frontmatter",
     "main": "index.js",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "gitbook": "*"
     },
@@ -10,6 +10,10 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/psilocene/gitbook-plugin-strip-frontmatter.git"
+    },
+    "dependencies": {
+    "lodash": "^2.4.1",
+    "marked": "https://github.com/mrpotes/marked/tarball/html-structure"
     },
     "license": "Apache 2",
     "bugs": {
